@@ -47,6 +47,14 @@ h1{
 .seccion-texto{
     font-size: 1.2rem;
 }
+
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+}
+
+
 .texto-negro{
     color: black;
 }
@@ -190,7 +198,43 @@ h1{
     color: #8395a7;
 }
 
+/* Artículos */
+
+.articulos{
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+/* Testimonios */
+
+.testimonios{
+    padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel{
+    max-width: 800px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
 /* Adaptable (responsivo) */
+
+@media screen and (max-width: 400px) {
+    .overlay p{
+        font-size: 18px;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
